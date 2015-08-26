@@ -1,18 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app>
-<!-- 	<resource-ref> -->
-<!-- 		<description>jdbc:mysql://localhost:3306/javademo</description> -->
-<!-- 		<res-ref-name>jdbc/JAVA_DEMO</res-ref-name> -->
-<!-- 		<res-type>javax.sql.DataSource</res-type> -->
-<!-- 		<res-auth>Container</res-auth> -->
-<!-- 		<res-sharing-scope>Shareable</res-sharing-scope> -->
-<!-- 	</resource-ref> -->
-  <servlet>
-    <servlet-name>TomcatJDBC</servlet-name>
-    <servlet-class>com.microsoft.demo.TomcatServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>TomcatJDBC</servlet-name>
-    <url-pattern>/</url-pattern>
-  </servlet-mapping>
 </web-app>
